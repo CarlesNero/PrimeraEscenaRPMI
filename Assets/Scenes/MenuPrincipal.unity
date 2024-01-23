@@ -565,15 +565,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1813203600}
-        m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
-        m_MethodName: moveToScene
-        m_Mode: 3
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: EscenaPrueba
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1813203598
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1813203595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9692ccc1e4b9d2488c61837800b5d75, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f8acdf566db19546bcfc3b92b6eb4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1857950743
